@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.secao03.aula05;
+
+public class ShoppingCart02 {
+
+	public static void main(String[] args) {
+		 String custName = "Alex";
+	        String itemDesc = "Camiseta";
+	        String message = custName+" wants to purchase a "+itemDesc;
+	}
+
+}
