@@ -1,0 +1,22 @@
+package br.com.senaisp.bauru.secao03.aula06;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+		
+		//Showzin
+		JOptionPane.showMessageDialog(null, "Olá, seja bem vindo ao show do Picojohnson", 
+				"SHOW", JOptionPane.INFORMATION_MESSAGE);
+		
+		String question1 = (String)JOptionPane.showInputDialog(null, "Qual o seu nome?" )
+		
+		//Questões da vida
+		//JOptionPane.showConfirmDialog(null, "Você está legal no dia de hoje?",
+				//"Bom dia!", 0, JOptionPane.QUESTION_MESSAGE);
+		
+		//JOptionPane.showMessageDialog(null,"FODA-SE", "ALASTRO", JOptionPane.WARNING_MESSAGE);
+	}
+
+}
