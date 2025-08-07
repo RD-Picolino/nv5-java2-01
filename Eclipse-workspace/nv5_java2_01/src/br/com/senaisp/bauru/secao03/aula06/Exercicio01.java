@@ -7,7 +7,7 @@ public class Exercicio01 {
 	public static void main(String[] args) {
 		
 		//Showzin
-		JOptionPane.showMessageDialog(null, "Olá, seja bem vindo ao show do Picojohnson", 
+		JOptionPane.showMessageDialog(null, "Olá, seja bem vindo ao show do PicoJohnson", 
 				"SHOW", JOptionPane.INFORMATION_MESSAGE);
 		
 		String question1 = (String)JOptionPane.showInputDialog(null, "Qual o seu nome?",
