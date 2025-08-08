@@ -1,0 +1,19 @@
+package br.com.senaisp.bauru.secao04.aula08;
+
+import java.util.Scanner;
+
+public class NameMaker {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Qual o seu nome?");
+		String nome;
+		String nomeDoMeio;
+		String ultimoNome;
+		String nomeCompleto;
+		
+		sc.close();
+	}
+
+}
