@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.secao04.aula09;
+
+public class Forca {
+	private String palavraSecreta;
+	private String palavraMascarada;
+	private int erros;
+	//números aleatórios
+	private Random rnd;
+
+}
