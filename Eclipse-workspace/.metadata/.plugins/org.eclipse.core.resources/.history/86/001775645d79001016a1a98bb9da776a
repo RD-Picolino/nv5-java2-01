@@ -1,8 +1,0 @@
-package br.com.senaisp.bauru.secao06.aula12;
-
-public class TicTacToe {
-	private char[] tab; //tab de tabuleiro
-	private String nomePlayer;
-	private byte[] posDisp;
-
-}
