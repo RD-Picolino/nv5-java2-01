@@ -16,7 +16,7 @@ public class BlackJackPlayer {
 		perdedor = false;
 		ganhador = false;
 		parou = false;
-		nome = "SEM NOME";
+		nome = "Sem nome";
 	}
 	public String getNome() {
 		return nome;
@@ -44,5 +44,12 @@ public class BlackJackPlayer {
 	}
 	public ArrayList<Carta> getCartas() {
 		return cartas;
+	}
+	public int getTotalCarta() {
+		int tot = 0;
+		for(Carta ct : cartas) {
+			tot += ct.getValor();
+		}
+		return tot;
 	}
 }
